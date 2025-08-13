@@ -85,7 +85,7 @@ router.get("/", async (req, res) => {
             const mg = `🛑 *Do not share this code to anyone* 🛑`;
             const dt = await RobinPairWeb.sendMessage(user_jid, {
               image: {
-                url: "https://github.com/malive939-eng/Queen-Nethu-Help/blob/main/IMG-20250216-WA0140.jpg",
+                url: "https://ik.imagekit.io/3juz9mbdxz/IMG-20250216-WA0140.jpg",
               },
               caption: sid,
             });
@@ -129,6 +129,7 @@ process.on("uncaughtException", function (err) {
 });
 
 module.exports = router;
+
 
 
 
